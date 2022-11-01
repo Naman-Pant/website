@@ -23,8 +23,8 @@ JOBS = [
   {
     'id': 4,
     'title': 'Backend Engineer',
-    'location': 'San Francisco, USA',
-    'salary': '$150,000'
+    'location': 'Mumbai, India',
+    'salary': 'Rs.20,00,000'
   }
 ]
 
@@ -32,7 +32,7 @@ JOBS = [
 def hello_jovian():
     return render_template('home.html', 
                            jobs=JOBS, 
-                           company_name='Jovian')
+                           company_name='Beta')
 
 @app.route("/api/jobs")
 def list_jobs():
